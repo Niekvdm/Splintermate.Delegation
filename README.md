@@ -20,7 +20,7 @@ Depending on the delegation type you're going to execute you'll need to provide 
 - Token transfer: Active key
 
 #### Account
-Username: o the account to delegate/transfer from in lowercase eg:. johndoe  
+Username: of the account to delegate/transfer from in lowercase eg:. johndoe  
 PostingKey: Private WIF posting key  
 ActiveKey: Private WIF active key  
 

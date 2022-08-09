@@ -1,0 +1,25 @@
+﻿{
+	"Delegation": {
+		"Account": {
+			"Username": "",
+			"PostingKey": "",
+			"ActiveKey": ""
+		},
+		"Mode": "tokens",
+		"Players": [
+			""
+		],
+		"Cards": [
+			{
+				"Id": 457,
+				"Bcx": 1,
+				"Gold": false
+			}
+		],
+		"Tokens": {
+			"Token": "DEC",
+			"Threshold": 500,
+			"Quantity": 100
+		}
+	}
+}

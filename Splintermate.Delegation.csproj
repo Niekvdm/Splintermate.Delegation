@@ -37,4 +37,15 @@
     <ProjectReference Include="..\Splintermate.Utilities\Splintermate.Utilities.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Remove="delegation.json" />
+    <Content Include="delegation.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

@@ -111,6 +111,8 @@ namespace Splintermate.Delegation
                 _logger.Information("{Username}> Fetching card collection", player);
                 var c = await _playersConnector.GetCollection(player);
 
+                await Task.Delay(_configuration.GetValue<int?>("Delay") ?? 2500);
+
                 if (c != null)
                 {
                     var toDelegate = new List<CardDetails>();
@@ -183,8 +185,6 @@ namespace Splintermate.Delegation
                             _logger.Error(ex, "{Username}> {Message}", player, ex.Message);
                         }
                     }
-
-                    await Task.Delay(_configuration.GetValue<int?>("Delay") ?? 2500);
                 }
                 else
                 {

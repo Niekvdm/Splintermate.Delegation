@@ -107,6 +107,8 @@ namespace Splintermate.Delegation
                 
                 var c = await _playersConnector.GetBalances(player);
 
+                await Task.Delay(_configuration.GetValue<int?>("Delay") ?? 2500);
+
                 if (c != null)
                 {
                     var tokenBalance = c.FirstOrDefault(balance => string.Equals(balance.Token, token, StringComparison.CurrentCultureIgnoreCase));
@@ -148,8 +150,6 @@ namespace Splintermate.Delegation
                         _logger.Error(ex, "{Username}> {Message}", player, ex.Message);
                     }
                 }
-
-                await Task.Delay(_configuration.GetValue<int?>("Delay") ?? 2500);
             }
             
             _logger.Information("Delegation of {Token} has finished", token);

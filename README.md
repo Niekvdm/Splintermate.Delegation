@@ -32,52 +32,5 @@ ActiveKey: Private WIF active key
 },
 ```
 
-#### Mode
-Can be set to `cards` or `tokens`
-
-```json
-"Mode": "tokens",
-```
-
-#### Players
-Add each player target on a new line
-```json
-"Players": [
-  "johndoe",
-  "janedoe"
-],
-```
- 
-#### Cards
-Add each cards details in it's own object `{}`
-```json
-"Cards": [
-  {
-    "Id": 457,
-    "Bcx": 1,
-    "Gold": false
-  },
-  {
-    "Id": 236,
-    "Bcx": 1,
-    "Gold": true
-  }
-],
- ```
- 
-#### Tokens
-Token to send can be any supported token from Splinterslands eg:. `DEC`, `SPS`, `CHAOS` etc...  
-Yes.. you could even spread chaos packs if you'd like, not sure why though :-)  
-
-Threshold: If the target has less of X token than the set threshold it will attempt to transfer the `Quantity` value.  
-Quantity: The amount of X token to transfer
-```json
-"Tokens": {
-  "Token": "DEC",
-  "Threshold": 500,
-  "Quantity": 100
-}
-```
-
 # Run
-After configuration just execute Splintermate.Delegation.exe and watch your assets fly!
+After configuration just execute Splintermate.Delegation.exe and navigate to http://127.0.0.1:5237

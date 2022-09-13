@@ -1,0 +1,50 @@
+body {
+	@apply text-gray-700 dark:bg-gray-800 dark:text-gray-200;
+}
+
+table {
+	@apply text-gray-700 dark:bg-gray-800 dark:text-gray-200;
+}
+
+table.table-bg {	
+	@apply bg-gray-200 text-gray-700 dark:bg-gray-800 dark:text-gray-200;
+}
+
+table.table-bg > * > * {
+	@apply border-gray-300
+}
+
+body.modal-open {
+	overflow: hidden;
+	height: 100vh;
+}
+
+.v-termynal::before {
+	display: none!important;
+}
+
+.v-termynal .line-container {
+	height: 400px;
+	overflow-y: auto;
+}
+
+.light-termynal {
+	--vt-color-bg: #ddd;
+	--vt-color-text: #1a1e24;
+	--vt-color-text-subtle: #d76d77;
+	--vt-color-btn: #881823;
+	--vt-color-btn-hover: #460c12;
+}
+
+.v-termynal .vt__line {
+	visibility: visible!important;
+}
+
+a,
+.footer-link {
+	@apply transition-all ease-out duration-100;
+}
+
+.footer-link {
+	opacity: 0.8;
+}

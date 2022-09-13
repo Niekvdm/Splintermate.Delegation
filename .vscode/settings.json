@@ -1,0 +1,7 @@
+{
+	"i18n-ally.localesPaths": [
+		"locales",
+		"bin/Debug/net6.0/locales"
+	],
+	"i18n-ally.keystyle": "flat"
+}

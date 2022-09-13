@@ -401,3 +401,9 @@ FodyWeavers.xsd
 Properties/*
 appsettings.json
 delegation.json
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local

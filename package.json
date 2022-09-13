@@ -1,0 +1,43 @@
+{
+  "name": "splintermate-delegation",
+  "version": "1.0.0",
+  "description": "A simple delegation tool to delegate cards and transfer tokens to multiple Splinterlands accounts",
+  "scripts": {
+    "start": "echo Starting the development server && vite --open --host",
+    "dev": "vite --open --host",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@lehoczky/vue-termynal": "^1.2.1",
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.1",
+    "bootstrap-vue-3": "^0.3.2",
+    "pinia": "^2.0.22",
+    "vue": "^3.2.37",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.1.3"
+  },
+  "devDependencies": {
+    "@iconify-json/ant-design": "^1.1.3",
+    "@iconify-json/logos": "^1.1.14",
+    "@iconify-json/ph": "^1.1.2",
+    "@iconify/iconify": "^2.2.1",
+    "@iconify/json": "^2.1.93",
+    "@intlify/vite-plugin-vue-i18n": "^6.0.1",
+    "@types/node": "^18.7.4",
+    "@unocss/preset-icons": "^0.45.6",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vueuse/core": "^9.1.0",
+    "pathe": "^0.3.4",
+    "sass": "^1.54.9",
+    "typescript": "^4.7.4",
+    "unocss": "^0.45.6",
+    "unplugin-vue-components": "^0.22.4",
+    "vite": "^3.0.7",
+    "vite-plugin-fonts": "^0.6.0",
+    "vite-plugin-purge-icons": "^0.9.0",
+    "vite-svg-loader": "^3.4.0",
+    "vue-tsc": "^0.40.1"
+  }
+}

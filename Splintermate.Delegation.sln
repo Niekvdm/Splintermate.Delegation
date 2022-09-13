@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Splintermate.Models", "..\S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Splintermate.Utilities", "..\Splintermate.Utilities\Splintermate.Utilities.csproj", "{C0AD6CD6-095A-4DC7-8A10-D5509F27449F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Splintermate.Extensions", "..\Splintermate.Extensions\Splintermate.Extensions.csproj", "{20EF4E64-3C57-41A1-96B1-708EEE1D75C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{C0AD6CD6-095A-4DC7-8A10-D5509F27449F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0AD6CD6-095A-4DC7-8A10-D5509F27449F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0AD6CD6-095A-4DC7-8A10-D5509F27449F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20EF4E64-3C57-41A1-96B1-708EEE1D75C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20EF4E64-3C57-41A1-96B1-708EEE1D75C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20EF4E64-3C57-41A1-96B1-708EEE1D75C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20EF4E64-3C57-41A1-96B1-708EEE1D75C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,5 +73,6 @@ Global
 		{0E781D64-75F4-4C48-9FFC-B232C5D0B2AD} = {530A27C8-CDF8-4FE6-8C74-872FA868EC4B}
 		{75C27708-44DA-4845-99BE-BC3F0AD1ABE9} = {530A27C8-CDF8-4FE6-8C74-872FA868EC4B}
 		{C0AD6CD6-095A-4DC7-8A10-D5509F27449F} = {530A27C8-CDF8-4FE6-8C74-872FA868EC4B}
+		{20EF4E64-3C57-41A1-96B1-708EEE1D75C3} = {530A27C8-CDF8-4FE6-8C74-872FA868EC4B}
 	EndGlobalSection
 EndGlobal
